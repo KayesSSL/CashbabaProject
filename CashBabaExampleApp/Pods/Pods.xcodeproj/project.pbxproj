@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00697BECBB63385C0CF5C557D5AF0CAE /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A1FE6C36A1F3AF9610A72B2BF6901 /* APIHandler.swift */; };
+		03472882AE5637DAC737B28DE1FE2033 /* SDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9AAFDC0247E42A18F19CD936CBBD9 /* SDKError.swift */; };
+		0570285140A848865AF6297197D35CCD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B784F9C1EF6FFA1710A3586F16E8761 /* WelcomeView.swift */; };
+		06FBEF23D72116B99901DB5C34FDA49D /* ChangePINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29E6ABE8401D0173535FE90206839D7 /* ChangePINVC.swift */; };
+		0A87673273B4773913B69FBD0DAB1C54 /* CashBabaSDK-CBSDKResources in Resources */ = {isa = PBXBuildFile; fileRef = 54C08EE8B31E3BE68CB0CFE3CD3E5D47 /* CashBabaSDK-CBSDKResources */; };
+		0ACC0EC61BD688446EF683938EF73F1A /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037CD306506B9C5AF1AF72C1A500ACA /* Dictionary.swift */; };
+		0E785098BBCF294A86196B36BA003EC9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A06136A81917B944B932901B4C3F71 /* UIViewController.swift */; };
+		10AA89EA7787FFBBAEA460EE0029667F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB244A0D124FE9739C0AEA10AA6163 /* MainCoordinator.swift */; };
+		11E82AF12D4ED81994B78330E9CA3550 /* exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7326D5B93603841CDB3F446631A6AA /* exts.swift */; };
+		133574D441196C0050D14C445B958D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		15E74612D0738B24C1437AA3CBF22B15 /* CBFaceDetectionSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D135723B3DF1A9D70E8444667F27F06 /* CBFaceDetectionSDK.swift */; };
+		198339E96C1FC3C65166782F4D6D0526 /* PINSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4012827E2F78EB2605F4A2C0ED1BBF94 /* PINSetupVC.swift */; };
+		29EBFD706481787052C80A28A5DFC1C4 /* CBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC37273F28EE9708C90EE812817805 /* CBBaseViewController.swift */; };
+		3146EC63076D811E34E2746BD580ADE7 /* CashBabaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E791F3679AF29605781846301A42BF2B /* CashBabaSDK-dummy.m */; };
+		345F3021B91C679461BF3484FFD90A4B /* Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFE487F31D1F3908B8A915EECF20E40 /* Encryptor.swift */; };
+		355BAFC01B2FBE6EFD553B9AE238BA96 /* SDKPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C966C582896B0B73F42C0896E5D4705 /* SDKPresenter.swift */; };
+		358D9016249FAD30A652EBAC3269530A /* SessionTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A80007F7D29CB99492CB46E926EB959 /* SessionTimerManager.swift */; };
+		376F9665F77E56C2AEE6D9F9DAF19925 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6749264E1A090296752438E597F015 /* UIColor.swift */; };
+		3D66BCDCB035CD780EA23B25E7882694 /* CashBabaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69125B858C9C7A5CFAFAEE0B9B48354 /* CashBabaRepository.swift */; };
+		3E871DA88609868B584883B561D03F64 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E4CA1853E2F5B36386BDD3BB3A834B /* FontManager.swift */; };
+		41A3D1544BFD8201DFFDD530A14C33EE /* SecurePINLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1DF3005A0970DAAA7C43AA09FD3250 /* SecurePINLabel.swift */; };
+		42296E746769BC4434F51C9C36DFAEE9 /* ConfirmPINView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F59752033591F247EB4461D77E369 /* ConfirmPINView.swift */; };
+		43CBDC96D3E8252F9033C4C7FD96CED6 /* CGImage+FaceCrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B312A2A8E0AD2E42ED5878E81FF8D2 /* CGImage+FaceCrop.swift */; };
+		4DE8A6FBA168375B042A55DBBDCB28E2 /* CBWebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D23FA257ADC0D3DC503B8CD91C747 /* CBWebServiceHandler.swift */; };
+		539FEC4F4A103462E61F39CE30D3C26D /* CashBabaSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D256E67C66E7F67C4400453E7889F /* CashBabaSDK.swift */; };
+		59C6839D376DA911C034A33E5DC2FBDD /* CBSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375283C28F617BFC816B9F7F7BE854FA /* CBSDKManager.swift */; };
+		5C90B01998A2081BFD903DA1A09A77C4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A683E893E5149F1D178387BCB90CF /* UIView.swift */; };
+		5E4ED9B01EFE30E938EE4B202129EB68 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539C1BB91DCC3946C89E6A2CFBBB6638 /* ScrollableView.swift */; };
+		5F04D0CD4B89E79C5007D4BD42266917 /* ChangePinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C1CE89F75FDCD97B341237D009119 /* ChangePinView.swift */; };
+		5FEC60AB97073779971A34E6B8935358 /* PINSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE3351DE194981CC6C858B81BCF257 /* PINSetupView.swift */; };
+		6386B47613A09DBED1F7475AB3B44D2A /* LanguageTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAFF7EB78CA901979B30677E30A166 /* LanguageTexts.swift */; };
+		67DCBFEE65EC05FD944FFA3824BEC6DF /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44AA1280825E78F9C8B85CAF239B9E /* Encodable.swift */; };
+		6A9AF7D9120BAAD06477FA9A9C5C2F13 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDFC3940DC0CB1372FBC04E736E3FB9 /* FaceDetectionViewController.swift */; };
+		6F09A38E6C00E136CC4D81AEFAA7A7B6 /* CBSDKLanguageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FF2CD0380C640AC14321549BB0AA5 /* CBSDKLanguageHandler.swift */; };
+		7185847855B39E319E53D956AB193740 /* CBSplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3D24BB3E082E4413B23EE16790925 /* CBSplashVC.swift */; };
+		72D77B6AD2F0C753837789DE0EF8476E /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4581088647A9B8FCCB33A55183729 /* Routes.swift */; };
+		73B04D5266BE5D514033374D3829636B /* CBErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C43CEC0EA9DF687AEACA0FBA5D582E6 /* CBErrorView.swift */; };
+		75BDDFC1A2E8C0519AA1208A737A8C5A /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FB3075BCDFB1A45FF94F73072E0B5 /* WelcomeVC.swift */; };
+		7A442FAB202673E03AA8A52B3A7F9AD1 /* PinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18663C2932624ACBC5188F3E128F7C19 /* PinInputView.swift */; };
+		7A5C3E2106754872C8F5AE1629CC8DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7ABFEE2588D3AEDCCADC83404D622C23 /* ForgetPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A520C024737BC28A63E95FF3DE29C /* ForgetPinView.swift */; };
+		80ED94080C0295701B7BCDAEF270EA19 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC73BB1632026BD6BD46527FF1F54F /* KeyboardObserver.swift */; };
+		83BD1A8A534E856ED89FD2F991815163 /* CBSDKDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6605A26C0748B8C2EBA6C7D6C9572 /* CBSDKDataStorage.swift */; };
+		8624C84E7B63572048E00D523669E3D4 /* Pods-CashBabaExampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A157524A630A27170116FA2A7660F33 /* Pods-CashBabaExampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D34FAC8A64DBEF59A7B87C5BA28179D /* ApiPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3FF1B803B21B69D81725ED3C28DFAC /* ApiPaths.swift */; };
+		8F2AA02A19D8D20E9EE165127C124D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E02951447B6B7835A9E812F490858F /* Assets.xcassets */; };
+		96F13643D07C22B080643742F4A7ECB6 /* CBSDKDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D236F3B4B6551D3908F64262C78D57 /* CBSDKDataStore.swift */; };
+		9761BE29418C93BC618A7B38C23D71F9 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C4627A33CCF5F2F387A3AAC696CC5 /* UIDevice.swift */; };
+		9DFE1E21BE9BB87D33754C3AEDC22CC7 /* ConfirmPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828871F2164D07CCDBDA5506C82362 /* ConfirmPINVC.swift */; };
+		9EF61B3F84AA6D02432B1FE93872634B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CAF8FA093E7F0E6EF6E2C3AF66C711 /* UIImage.swift */; };
+		9F0F1A382BF575065196F95FD6DF2BA3 /* CBPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CFB78B718E361ACFA53E596EBE362 /* CBPopUpViewController.swift */; };
+		A088B4304F896C48D18634182FA48CDA /* CashBabaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A1E7D01B6B7FDCE460EF1F5F33C4B1 /* CashBabaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E89E08374521D197A0FAE2228D6422 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C21289945F5734A68D75888DF3A868 /* Constant.swift */; };
+		A15134004CFDC66B56608A8AD88502B9 /* FaceDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF1B40A2DBD3449E3CDEF9B9CCB7A5 /* FaceDetectionView.swift */; };
+		B821882B532B13B89A022144A6C611A4 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484B92D6634008B9A15F9201467230C /* OTPVerificationView.swift */; };
+		C59943A710AC6963D76CC5003FA3102E /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C938667F91567474C2D27E98DB4F9 /* CustomGradientView.swift */; };
+		C73C4A1BD88CA9A58AE5E32B5DC5A832 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9ECE96A8F7EC053101957C70C8F9E /* IndicatorView.swift */; };
+		CB129F33BDD5399D1CCDB5D2DCD6F367 /* CBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ACDF186F538D95F6691C4607726023 /* CBProgressHUD.swift */; };
+		CF62BD27BE6560CE0AD3897CC4A1EC1F /* ExampleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7FC3195F63A81CAEF002E02008458 /* ExampleImage.swift */; };
+		D0C7D7AB741C1DD6B04370D64E2AA3EC /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0E93BD56B4487121021CD8B1C5265 /* UIFont.swift */; };
+		D1A803F859C204CD813D13DCF4F70D75 /* Pods-CashBabaExampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E36CAB15091F6E06027920F3B4C09 /* Pods-CashBabaExampleApp-dummy.m */; };
+		D25542677A71785EA5F2B00FC7CF50AE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28E278DA4FEFA474FF816313455EC89 /* Models.swift */; };
+		D591EF9AC0C4B9435FAD8FC9DF82BFBF /* CBErrorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BD0B44E31DB005F964ADBB8EC7024 /* CBErrorVC.swift */; };
+		D8CD502FD52A95E6AC96A93EAB29D453 /* ForgetPinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B79344C4060DE906087856FFB2FA4D /* ForgetPinVC.swift */; };
+		DD85AA64AF79BFA1343B08191AEA1C87 /* CBSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A62EB41237FC8434E8E41FE9F8C046 /* CBSplashView.swift */; };
+		E4543A801EF1F4AE84524050F9D61333 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AF3EFEFC41B0CD041B4C073B0A0460 /* DPOTPView.swift */; };
+		E61A81957E85B108488F84743F03221B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC05D13F7FF07EB5E98B25E4EC57D0E /* Config.swift */; };
+		ECC01B35FA85B71C3D10C520664E924F /* DOBSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2919027665AFA45C72651B1A3D4111 /* DOBSelectorView.swift */; };
+		EDFEE7D3F5DEB7804B4FBF9020FFD67A /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D43953BDC06A536544163277C6305 /* SessionStore.swift */; };
+		F1EFAA43AEAD3A9279C4C82C856F7235 /* EasyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA0479A618035AB3BF9C786F28456B /* EasyLabel.swift */; };
+		F3A5C0DB537858190D42C4C7607E04C8 /* CBPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E60B3FDDFF3A4A590BC514DBB087A /* CBPopUpView.swift */; };
+		F9A13FB4CE749BA240A6110316D49567 /* publickey.der in Resources */ = {isa = PBXBuildFile; fileRef = 67723F5F1D950C441E3336C1597F268F /* publickey.der */; };
+		FB10C437FA0CE8FF50834F8359DCBA68 /* OTPVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7A7EF41431695FF1937D2BDB89B13C /* OTPVerificationVC.swift */; };
+		FD6470E4407F212F199791B823F72232 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDC4DCE4FF6826F93374F548E279B1 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B90D19457CF246FDB282235B7D2059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A094820F9CA60ABB72D2BB0CC8D6C789;
+			remoteInfo = CashBabaSDK;
+		};
+		AB0CB96C14574A4FEC5D45F636C9C247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BD886775EFFF5787D91A16E26175539;
+			remoteInfo = "CashBabaSDK-CBSDKResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00828871F2164D07CCDBDA5506C82362 /* ConfirmPINVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfirmPINVC.swift; sourceTree = "<group>"; };
+		032D256E67C66E7F67C4400453E7889F /* CashBabaSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashBabaSDK.swift; path = CashBabaSDK/CashBabaSDK.swift; sourceTree = "<group>"; };
+		0484B92D6634008B9A15F9201467230C /* OTPVerificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		0C43CEC0EA9DF687AEACA0FBA5D582E6 /* CBErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBErrorView.swift; sourceTree = "<group>"; };
+		0EE6605A26C0748B8C2EBA6C7D6C9572 /* CBSDKDataStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSDKDataStorage.swift; sourceTree = "<group>"; };
+		0FAC73BB1632026BD6BD46527FF1F54F /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		10E3D24BB3E082E4413B23EE16790925 /* CBSplashVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSplashVC.swift; sourceTree = "<group>"; };
+		11A4581088647A9B8FCCB33A55183729 /* Routes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		18663C2932624ACBC5188F3E128F7C19 /* PinInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PinInputView.swift; sourceTree = "<group>"; };
+		192165D0F3A392939C8D9FB4A830659E /* Pods-CashBabaExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashBabaExampleApp.modulemap"; sourceTree = "<group>"; };
+		1BE0E93BD56B4487121021CD8B1C5265 /* UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		22CAF8FA093E7F0E6EF6E2C3AF66C711 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		2A664246F48104FBFAF768BEA1929124 /* Pods-CashBabaExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBabaExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6E36CAB15091F6E06027920F3B4C09 /* Pods-CashBabaExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashBabaExampleApp-dummy.m"; sourceTree = "<group>"; };
+		30E68A56ECE6C8CDD1A5E5CA1854A91E /* CashBabaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashBabaSDK.debug.xcconfig; sourceTree = "<group>"; };
+		375283C28F617BFC816B9F7F7BE854FA /* CBSDKManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSDKManager.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		390D23FA257ADC0D3DC503B8CD91C747 /* CBWebServiceHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBWebServiceHandler.swift; sourceTree = "<group>"; };
+		39FC37273F28EE9708C90EE812817805 /* CBBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBBaseViewController.swift; sourceTree = "<group>"; };
+		3BC05D13F7FF07EB5E98B25E4EC57D0E /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3C966C582896B0B73F42C0896E5D4705 /* SDKPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDKPresenter.swift; sourceTree = "<group>"; };
+		3DC281BFD0970C9DC3EA8487A8ED3A11 /* CashBabaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashBabaSDK.release.xcconfig; sourceTree = "<group>"; };
+		3E7326D5B93603841CDB3F446631A6AA /* exts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = exts.swift; sourceTree = "<group>"; };
+		3F9419A193DBD66AC0957DF436D4D241 /* Pods-CashBabaExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBabaExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		4012827E2F78EB2605F4A2C0ED1BBF94 /* PINSetupVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PINSetupVC.swift; sourceTree = "<group>"; };
+		452D207AA25B555331B4D1E3171582A0 /* CashBabaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CashBabaSDK.modulemap; sourceTree = "<group>"; };
+		478A520C024737BC28A63E95FF3DE29C /* ForgetPinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForgetPinView.swift; sourceTree = "<group>"; };
+		4B9481247046AD1A625A843D53E48008 /* Pods-CashBabaExampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBabaExampleApp-Info.plist"; sourceTree = "<group>"; };
+		4E9C938667F91567474C2D27E98DB4F9 /* CustomGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		51E4CA1853E2F5B36386BDD3BB3A834B /* FontManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		539C1BB91DCC3946C89E6A2CFBBB6638 /* ScrollableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		53DF1B40A2DBD3449E3CDEF9B9CCB7A5 /* FaceDetectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceDetectionView.swift; sourceTree = "<group>"; };
+		54C08EE8B31E3BE68CB0CFE3CD3E5D47 /* CashBabaSDK-CBSDKResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CashBabaSDK-CBSDKResources"; path = CBSDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4A73D3253A7CFE4413ABBDDD7A43A7 /* Pods-CashBabaExampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBabaExampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B5CFB41B2E4A83EBB9CECB396DF4980 /* Pods-CashBabaExampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashBabaExampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		65B79344C4060DE906087856FFB2FA4D /* ForgetPinVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForgetPinVC.swift; sourceTree = "<group>"; };
+		667DCE544287C12627A72F13B065F0E6 /* ResourceBundle-CBSDKResources-CashBabaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CBSDKResources-CashBabaSDK-Info.plist"; sourceTree = "<group>"; };
+		67723F5F1D950C441E3336C1597F268F /* publickey.der */ = {isa = PBXFileReference; includeInIndex = 1; path = publickey.der; sourceTree = "<group>"; };
+		6A80007F7D29CB99492CB46E926EB959 /* SessionTimerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionTimerManager.swift; sourceTree = "<group>"; };
+		6D7A7EF41431695FF1937D2BDB89B13C /* OTPVerificationVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPVerificationVC.swift; sourceTree = "<group>"; };
+		7037CD306506B9C5AF1AF72C1A500ACA /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		71AF3EFEFC41B0CD041B4C073B0A0460 /* DPOTPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
+		760A683E893E5149F1D178387BCB90CF /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		81ED77433B69F557B8B047FE1BF4473A /* CashBabaSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CashBabaSDK-prefix.pch"; sourceTree = "<group>"; };
+		8B784F9C1EF6FFA1710A3586F16E8761 /* WelcomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8C3FF2CD0380C640AC14321549BB0AA5 /* CBSDKLanguageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSDKLanguageHandler.swift; sourceTree = "<group>"; };
+		8D135723B3DF1A9D70E8444667F27F06 /* CBFaceDetectionSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBFaceDetectionSDK.swift; sourceTree = "<group>"; };
+		8D3FF1B803B21B69D81725ED3C28DFAC /* ApiPaths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiPaths.swift; sourceTree = "<group>"; };
+		8E4C1CE89F75FDCD97B341237D009119 /* ChangePinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChangePinView.swift; sourceTree = "<group>"; };
+		965D444668109076928CCAB62473058B /* CashBabaSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CashBabaSDK; path = CashBabaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99891F866937C026ABDB0C14A102E801 /* CashBabaSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CashBabaSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0C4627A33CCF5F2F387A3AAC696CC5 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		9A157524A630A27170116FA2A7660F33 /* Pods-CashBabaExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashBabaExampleApp-umbrella.h"; sourceTree = "<group>"; };
+		9B0D43953BDC06A536544163277C6305 /* SessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		9C7A1FE6C36A1F3AF9610A72B2BF6901 /* APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		9CDFC3940DC0CB1372FBC04E736E3FB9 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E44AA1280825E78F9C8B85CAF239B9E /* Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		9F1DF3005A0970DAAA7C43AA09FD3250 /* SecurePINLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecurePINLabel.swift; sourceTree = "<group>"; };
+		A4D236F3B4B6551D3908F64262C78D57 /* CBSDKDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSDKDataStore.swift; sourceTree = "<group>"; };
+		AE2919027665AFA45C72651B1A3D4111 /* DOBSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DOBSelectorView.swift; sourceTree = "<group>"; };
+		B28E278DA4FEFA474FF816313455EC89 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B29E6ABE8401D0173535FE90206839D7 /* ChangePINVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChangePINVC.swift; sourceTree = "<group>"; };
+		B5ACDF186F538D95F6691C4607726023 /* CBProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBProgressHUD.swift; sourceTree = "<group>"; };
+		B75E60B3FDDFF3A4A590BC514DBB087A /* CBPopUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPopUpView.swift; sourceTree = "<group>"; };
+		B8F9AAFDC0247E42A18F19CD936CBBD9 /* SDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDKError.swift; sourceTree = "<group>"; };
+		B9C9ECE96A8F7EC053101957C70C8F9E /* IndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		BDBDC4DCE4FF6826F93374F548E279B1 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C5A1E7D01B6B7FDCE460EF1F5F33C4B1 /* CashBabaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CashBabaSDK-umbrella.h"; sourceTree = "<group>"; };
+		C69125B858C9C7A5CFAFAEE0B9B48354 /* CashBabaRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CashBabaRepository.swift; sourceTree = "<group>"; };
+		C99CFB78B718E361ACFA53E596EBE362 /* CBPopUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBPopUpViewController.swift; sourceTree = "<group>"; };
+		D27FB3075BCDFB1A45FF94F73072E0B5 /* WelcomeVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E0FB244A0D124FE9739C0AEA10AA6163 /* MainCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E1A06136A81917B944B932901B4C3F71 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E3EE3351DE194981CC6C858B81BCF257 /* PINSetupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PINSetupView.swift; sourceTree = "<group>"; };
+		E4E02951447B6B7835A9E812F490858F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CashBabaSDK/CBSDK/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		E61F59752033591F247EB4461D77E369 /* ConfirmPINView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfirmPINView.swift; sourceTree = "<group>"; };
+		E6C21289945F5734A68D75888DF3A868 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E791F3679AF29605781846301A42BF2B /* CashBabaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CashBabaSDK-dummy.m"; sourceTree = "<group>"; };
+		E7B312A2A8E0AD2E42ED5878E81FF8D2 /* CGImage+FaceCrop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGImage+FaceCrop.swift"; sourceTree = "<group>"; };
+		EB6749264E1A090296752438E597F015 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EC3A00D99C1AF13555AE8BE2D2F76C46 /* Pods-CashBabaExampleApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CashBabaExampleApp"; path = Pods_CashBabaExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAAFF7EB78CA901979B30677E30A166 /* LanguageTexts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageTexts.swift; sourceTree = "<group>"; };
+		EED7FC3195F63A81CAEF002E02008458 /* ExampleImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExampleImage.swift; sourceTree = "<group>"; };
+		F1B17DDC141E4501A06D31458CB02058 /* Pods-CashBabaExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashBabaExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F277F5B9AC9E4E4B7AB853327F5D5361 /* CashBabaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CashBabaSDK-Info.plist"; sourceTree = "<group>"; };
+		F74BD0B44E31DB005F964ADBB8EC7024 /* CBErrorVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBErrorVC.swift; sourceTree = "<group>"; };
+		F7A62EB41237FC8434E8E41FE9F8C046 /* CBSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBSplashView.swift; sourceTree = "<group>"; };
+		F7CA0479A618035AB3BF9C786F28456B /* EasyLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyLabel.swift; sourceTree = "<group>"; };
+		FDFE487F31D1F3908B8A915EECF20E40 /* Encryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Encryptor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC83CC6E6BF6334611A2DB18AB43A004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5C3E2106754872C8F5AE1629CC8DDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FDB0DBA002C6703D05FF78E8474E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88E2B2528379AB85702644369C97137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133574D441196C0050D14C445B958D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091126925249257EF9078BBA748A79FE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ECAAFF7EB78CA901979B30677E30A166 /* LanguageTexts.swift */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		127DCD7993D8F52C2EE48D92F7E45753 /* CBErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				F74BD0B44E31DB005F964ADBB8EC7024 /* CBErrorVC.swift */,
+				7033817CFB14A074C056183483EBC8A3 /* View */,
+			);
+			name = CBErrorView;
+			path = CBErrorView;
+			sourceTree = "<group>";
+		};
+		137AA814533863758B009AABEBEE450F /* CBSessionStore */ = {
+			isa = PBXGroup;
+			children = (
+				9B0D43953BDC06A536544163277C6305 /* SessionStore.swift */,
+			);
+			name = CBSessionStore;
+			path = CBSessionStore;
+			sourceTree = "<group>";
+		};
+		14FDD041E6E53AD015510BD0C2ABD2D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				478A520C024737BC28A63E95FF3DE29C /* ForgetPinView.swift */,
+				7BBFF9215A5ED58323659B83D81D4A83 /* Components */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		160BE78A2EF6B2EBA3501F9216798887 /* OTP Verification */ = {
+			isa = PBXGroup;
+			children = (
+				6D7A7EF41431695FF1937D2BDB89B13C /* OTPVerificationVC.swift */,
+				8090C82D8206A169FF209685831F91C3 /* View */,
+			);
+			name = "OTP Verification";
+			path = "OTP Verification";
+			sourceTree = "<group>";
+		};
+		27950BF90DF487A8C123A9DFBB1F3349 /* Change PIN */ = {
+			isa = PBXGroup;
+			children = (
+				B29E6ABE8401D0173535FE90206839D7 /* ChangePINVC.swift */,
+				A11FC9B3C01C95F920002A5788698DEC /* View */,
+			);
+			name = "Change PIN";
+			path = "Change PIN";
+			sourceTree = "<group>";
+		};
+		3B1EE28C20FB5EB0D42823A2CFD002BD /* DPOTPView */ = {
+			isa = PBXGroup;
+			children = (
+				71AF3EFEFC41B0CD041B4C073B0A0460 /* DPOTPView.swift */,
+			);
+			name = DPOTPView;
+			path = DPOTPView;
+			sourceTree = "<group>";
+		};
+		403E7E05BAB0B69DAF3BF199E6996097 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				39FC37273F28EE9708C90EE812817805 /* CBBaseViewController.swift */,
+				6A80007F7D29CB99492CB46E926EB959 /* SessionTimerManager.swift */,
+			);
+			name = BaseVC;
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		42A4B31494F15561D189A1AC699839F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				18663C2932624ACBC5188F3E128F7C19 /* PinInputView.swift */,
+				9F1DF3005A0970DAAA7C43AA09FD3250 /* SecurePINLabel.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4CF3BAC014FA26DB4686B90639D57AF3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				99891F866937C026ABDB0C14A102E801 /* CashBabaSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5012D86CD4A5A480D257CD87FE16C99A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D618FA38E74759654465D5FA8F927619 /* Pods-CashBabaExampleApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51D06DB9FDF20C24AFFEA6BA3C126FD1 /* Confirm PIN */ = {
+			isa = PBXGroup;
+			children = (
+				00828871F2164D07CCDBDA5506C82362 /* ConfirmPINVC.swift */,
+				63523C0C884C19544DB07FA17C727C95 /* View */,
+			);
+			name = "Confirm PIN";
+			path = "Confirm PIN";
+			sourceTree = "<group>";
+		};
+		54519DFEA08B8E82ADB355C64020BE2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3EE3351DE194981CC6C858B81BCF257 /* PINSetupView.swift */,
+				42A4B31494F15561D189A1AC699839F0 /* Components */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		56134F1CDB3DA6FC6B65D86002ECB7C0 /* CBPopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				B75E60B3FDDFF3A4A590BC514DBB087A /* CBPopUpView.swift */,
+			);
+			name = CBPopUpView;
+			path = CBPopUpView;
+			sourceTree = "<group>";
+		};
+		593FCB975ECEF8B6294190878A004C54 /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				53DF1B40A2DBD3449E3CDEF9B9CCB7A5 /* FaceDetectionView.swift */,
+				9CDFC3940DC0CB1372FBC04E736E3FB9 /* FaceDetectionViewController.swift */,
+				D56D1070192399279BA080CE4DC85DE1 /* Components */,
+			);
+			name = FaceDetection;
+			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		616F38AEF74AB976718834EC3869A933 /* CBRepository */ = {
+			isa = PBXGroup;
+			children = (
+				C69125B858C9C7A5CFAFAEE0B9B48354 /* CashBabaRepository.swift */,
+			);
+			name = CBRepository;
+			path = CBRepository;
+			sourceTree = "<group>";
+		};
+		62C39B79D9EAE980700B96CE9DAFC4EC /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				403E7E05BAB0B69DAF3BF199E6996097 /* BaseVC */,
+				127DCD7993D8F52C2EE48D92F7E45753 /* CBErrorView */,
+				72ACB50498F5B1E5FD385EB97CC50D23 /* CBPopUpVC */,
+				8BC49A4F8F28D62F8C780FE57DDDEF59 /* CustomGradientView */,
+				3B1EE28C20FB5EB0D42823A2CFD002BD /* DPOTPView */,
+				93B54A449C045CF7D824877D28CE0AB7 /* ScrollableView */,
+			);
+			name = CommonUI;
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		6321691F1A7B7F084EA7838CBDF9CD09 /* PIN Setup */ = {
+			isa = PBXGroup;
+			children = (
+				4012827E2F78EB2605F4A2C0ED1BBF94 /* PINSetupVC.swift */,
+				54519DFEA08B8E82ADB355C64020BE2D /* View */,
+			);
+			name = "PIN Setup";
+			path = "PIN Setup";
+			sourceTree = "<group>";
+		};
+		63523C0C884C19544DB07FA17C727C95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E61F59752033591F247EB4461D77E369 /* ConfirmPINView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D4F7041A97F9D5293E618E646221D55 /* TnC */ = {
+			isa = PBXGroup;
+			children = (
+				D27FB3075BCDFB1A45FF94F73072E0B5 /* WelcomeVC.swift */,
+				D2F0D26C273DE18DBB2D636798263580 /* View */,
+			);
+			name = TnC;
+			path = TnC;
+			sourceTree = "<group>";
+		};
+		7033817CFB14A074C056183483EBC8A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C43CEC0EA9DF687AEACA0FBA5D582E6 /* CBErrorView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		72ACB50498F5B1E5FD385EB97CC50D23 /* CBPopUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				C99CFB78B718E361ACFA53E596EBE362 /* CBPopUpViewController.swift */,
+				56134F1CDB3DA6FC6B65D86002ECB7C0 /* CBPopUpView */,
+			);
+			name = CBPopUpVC;
+			path = CBPopUpVC;
+			sourceTree = "<group>";
+		};
+		7BBFF9215A5ED58323659B83D81D4A83 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AE2919027665AFA45C72651B1A3D4111 /* DOBSelectorView.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7E8987A51E126053B41B9BF10DB26DDD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA5CDFE15AC7DE8FF4529566A71432 /* CashBabaSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8090C82D8206A169FF209685831F91C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0484B92D6634008B9A15F9201467230C /* OTPVerificationView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BC49A4F8F28D62F8C780FE57DDDEF59 /* CustomGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				4E9C938667F91567474C2D27E98DB4F9 /* CustomGradientView.swift */,
+			);
+			name = CustomGradientView;
+			path = CustomGradientView;
+			sourceTree = "<group>";
+		};
+		913194E4A50EB778F63875A306D4676E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				452D207AA25B555331B4D1E3171582A0 /* CashBabaSDK.modulemap */,
+				E791F3679AF29605781846301A42BF2B /* CashBabaSDK-dummy.m */,
+				F277F5B9AC9E4E4B7AB853327F5D5361 /* CashBabaSDK-Info.plist */,
+				81ED77433B69F557B8B047FE1BF4473A /* CashBabaSDK-prefix.pch */,
+				C5A1E7D01B6B7FDCE460EF1F5F33C4B1 /* CashBabaSDK-umbrella.h */,
+				30E68A56ECE6C8CDD1A5E5CA1854A91E /* CashBabaSDK.debug.xcconfig */,
+				3DC281BFD0970C9DC3EA8487A8ED3A11 /* CashBabaSDK.release.xcconfig */,
+				667DCE544287C12627A72F13B065F0E6 /* ResourceBundle-CBSDKResources-CashBabaSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../CashBabaExampleApp/Pods/Target Support Files/CashBabaSDK";
+			sourceTree = "<group>";
+		};
+		93B54A449C045CF7D824877D28CE0AB7 /* ScrollableView */ = {
+			isa = PBXGroup;
+			children = (
+				539C1BB91DCC3946C89E6A2CFBBB6638 /* ScrollableView.swift */,
+			);
+			name = ScrollableView;
+			path = ScrollableView;
+			sourceTree = "<group>";
+		};
+		985FECB1941FA734E0C6FC1EB4316E81 /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				E0FB244A0D124FE9739C0AEA10AA6163 /* MainCoordinator.swift */,
+				11A4581088647A9B8FCCB33A55183729 /* Routes.swift */,
+				3C966C582896B0B73F42C0896E5D4705 /* SDKPresenter.swift */,
+			);
+			name = Init;
+			path = Init;
+			sourceTree = "<group>";
+		};
+		98B04667A025C45441F767A8623807F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDBDC4DCE4FF6826F93374F548E279B1 /* Data.swift */,
+				7037CD306506B9C5AF1AF72C1A500ACA /* Dictionary.swift */,
+				9E44AA1280825E78F9C8B85CAF239B9E /* Encodable.swift */,
+				3E7326D5B93603841CDB3F446631A6AA /* exts.swift */,
+				EB6749264E1A090296752438E597F015 /* UIColor.swift */,
+				9A0C4627A33CCF5F2F387A3AAC696CC5 /* UIDevice.swift */,
+				1BE0E93BD56B4487121021CD8B1C5265 /* UIFont.swift */,
+				22CAF8FA093E7F0E6EF6E2C3AF66C711 /* UIImage.swift */,
+				760A683E893E5149F1D178387BCB90CF /* UIView.swift */,
+				E1A06136A81917B944B932901B4C3F71 /* UIViewController.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CED72599B10238017EABA627CACC34E /* CBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				091126925249257EF9078BBA748A79FE /* Assets */,
+				985FECB1941FA734E0C6FC1EB4316E81 /* Init */,
+				E50B075E13AA20041F7DE0F9465EA9E2 /* UIModules */,
+				DB4040674381BA3EBA22CC016E2F21A7 /* Utility */,
+			);
+			name = CBSDK;
+			path = CashBabaSDK/CBSDK;
+			sourceTree = "<group>";
+		};
+		A11FC9B3C01C95F920002A5788698DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E4C1CE89F75FDCD97B341237D009119 /* ChangePinView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF5EF8545F28353980F77C448699D2C3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA0479A618035AB3BF9C786F28456B /* EasyLabel.swift */,
+			);
+			name = Util;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B96A692ED263433A80A2FA880691CCB6 /* Forget PIN */ = {
+			isa = PBXGroup;
+			children = (
+				65B79344C4060DE906087856FFB2FA4D /* ForgetPinVC.swift */,
+				14FDD041E6E53AD015510BD0C2ABD2D8 /* View */,
+			);
+			name = "Forget PIN";
+			path = "Forget PIN";
+			sourceTree = "<group>";
+		};
+		BD33995A72A350E9469079FF6D1D0154 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				10E3D24BB3E082E4413B23EE16790925 /* CBSplashVC.swift */,
+				CEABEA019EA2133F510860080C84F23B /* View */,
+			);
+			name = Splash;
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C7A786C9C1A1B061E212D771E1302810 /* CBFaceDetectionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D135723B3DF1A9D70E8444667F27F06 /* CBFaceDetectionSDK.swift */,
+				E7B312A2A8E0AD2E42ED5878E81FF8D2 /* CGImage+FaceCrop.swift */,
+				593FCB975ECEF8B6294190878A004C54 /* FaceDetection */,
+				AF5EF8545F28353980F77C448699D2C3 /* Util */,
+			);
+			name = CBFaceDetectionSDK;
+			path = CBFaceDetectionSDK;
+			sourceTree = "<group>";
+		};
+		CEAA5CDFE15AC7DE8FF4529566A71432 /* CashBabaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E4E02951447B6B7835A9E812F490858F /* Assets.xcassets */,
+				032D256E67C66E7F67C4400453E7889F /* CashBabaSDK.swift */,
+				9CED72599B10238017EABA627CACC34E /* CBSDK */,
+				E0EF3ABD6BC36F6C253CBD667AB09D38 /* CBSDKResources.bundle */,
+				4CF3BAC014FA26DB4686B90639D57AF3 /* Pod */,
+				913194E4A50EB778F63875A306D4676E /* Support Files */,
+			);
+			name = CashBabaSDK;
+			path = ../../CashBabaSDK;
+			sourceTree = "<group>";
+		};
+		CEABEA019EA2133F510860080C84F23B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7A62EB41237FC8434E8E41FE9F8C046 /* CBSplashView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7E8987A51E126053B41B9BF10DB26DDD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DA4260645D4E8B925364A0F2826658A8 /* Products */,
+				5012D86CD4A5A480D257CD87FE16C99A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F0D26C273DE18DBB2D636798263580 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B784F9C1EF6FFA1710A3586F16E8761 /* WelcomeView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		D56D1070192399279BA080CE4DC85DE1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EED7FC3195F63A81CAEF002E02008458 /* ExampleImage.swift */,
+				B9C9ECE96A8F7EC053101957C70C8F9E /* IndicatorView.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D618FA38E74759654465D5FA8F927619 /* Pods-CashBabaExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				192165D0F3A392939C8D9FB4A830659E /* Pods-CashBabaExampleApp.modulemap */,
+				F1B17DDC141E4501A06D31458CB02058 /* Pods-CashBabaExampleApp-acknowledgements.markdown */,
+				5B4A73D3253A7CFE4413ABBDDD7A43A7 /* Pods-CashBabaExampleApp-acknowledgements.plist */,
+				2C6E36CAB15091F6E06027920F3B4C09 /* Pods-CashBabaExampleApp-dummy.m */,
+				5B5CFB41B2E4A83EBB9CECB396DF4980 /* Pods-CashBabaExampleApp-frameworks.sh */,
+				4B9481247046AD1A625A843D53E48008 /* Pods-CashBabaExampleApp-Info.plist */,
+				9A157524A630A27170116FA2A7660F33 /* Pods-CashBabaExampleApp-umbrella.h */,
+				2A664246F48104FBFAF768BEA1929124 /* Pods-CashBabaExampleApp.debug.xcconfig */,
+				3F9419A193DBD66AC0957DF436D4D241 /* Pods-CashBabaExampleApp.release.xcconfig */,
+			);
+			name = "Pods-CashBabaExampleApp";
+			path = "Target Support Files/Pods-CashBabaExampleApp";
+			sourceTree = "<group>";
+		};
+		DA4260645D4E8B925364A0F2826658A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965D444668109076928CCAB62473058B /* CashBabaSDK */,
+				54C08EE8B31E3BE68CB0CFE3CD3E5D47 /* CashBabaSDK-CBSDKResources */,
+				EC3A00D99C1AF13555AE8BE2D2F76C46 /* Pods-CashBabaExampleApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4040674381BA3EBA22CC016E2F21A7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B5ACDF186F538D95F6691C4607726023 /* CBProgressHUD.swift */,
+				0EE6605A26C0748B8C2EBA6C7D6C9572 /* CBSDKDataStorage.swift */,
+				A4D236F3B4B6551D3908F64262C78D57 /* CBSDKDataStore.swift */,
+				8C3FF2CD0380C640AC14321549BB0AA5 /* CBSDKLanguageHandler.swift */,
+				375283C28F617BFC816B9F7F7BE854FA /* CBSDKManager.swift */,
+				E6C21289945F5734A68D75888DF3A868 /* Constant.swift */,
+				51E4CA1853E2F5B36386BDD3BB3A834B /* FontManager.swift */,
+				0FAC73BB1632026BD6BD46527FF1F54F /* KeyboardObserver.swift */,
+				B8F9AAFDC0247E42A18F19CD936CBBD9 /* SDKError.swift */,
+				EA95922E4AD07251875D44C5BDD11A66 /* API Handler */,
+				C7A786C9C1A1B061E212D771E1302810 /* CBFaceDetectionSDK */,
+				616F38AEF74AB976718834EC3869A933 /* CBRepository */,
+				137AA814533863758B009AABEBEE450F /* CBSessionStore */,
+				62C39B79D9EAE980700B96CE9DAFC4EC /* CommonUI */,
+				98B04667A025C45441F767A8623807F0 /* Extensions */,
+			);
+			name = Utility;
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E0EF3ABD6BC36F6C253CBD667AB09D38 /* CBSDKResources.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				67723F5F1D950C441E3336C1597F268F /* publickey.der */,
+			);
+			name = CBSDKResources.bundle;
+			path = CashBabaSDK/CBSDK/Assets/CBSDKResources.bundle;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E50B075E13AA20041F7DE0F9465EA9E2 /* UIModules */ = {
+			isa = PBXGroup;
+			children = (
+				27950BF90DF487A8C123A9DFBB1F3349 /* Change PIN */,
+				51D06DB9FDF20C24AFFEA6BA3C126FD1 /* Confirm PIN */,
+				B96A692ED263433A80A2FA880691CCB6 /* Forget PIN */,
+				160BE78A2EF6B2EBA3501F9216798887 /* OTP Verification */,
+				6321691F1A7B7F084EA7838CBDF9CD09 /* PIN Setup */,
+				BD33995A72A350E9469079FF6D1D0154 /* Splash */,
+				6D4F7041A97F9D5293E618E646221D55 /* TnC */,
+			);
+			name = UIModules;
+			path = UIModules;
+			sourceTree = "<group>";
+		};
+		EA95922E4AD07251875D44C5BDD11A66 /* API Handler */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A1FE6C36A1F3AF9610A72B2BF6901 /* APIHandler.swift */,
+				8D3FF1B803B21B69D81725ED3C28DFAC /* ApiPaths.swift */,
+				390D23FA257ADC0D3DC503B8CD91C747 /* CBWebServiceHandler.swift */,
+				3BC05D13F7FF07EB5E98B25E4EC57D0E /* Config.swift */,
+				FDFE487F31D1F3908B8A915EECF20E40 /* Encryptor.swift */,
+				B28E278DA4FEFA474FF816313455EC89 /* Models.swift */,
+			);
+			name = "API Handler";
+			path = "API Handler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CDAE88A76A6400739BA4359658E6C29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8624C84E7B63572048E00D523669E3D4 /* Pods-CashBabaExampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB8B9E0391BE04F461BEC2ABC59F1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A088B4304F896C48D18634182FA48CDA /* CashBabaSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BD886775EFFF5787D91A16E26175539 /* CashBabaSDK-CBSDKResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CDD53A9CA57208072BB4ED8505FC88 /* Build configuration list for PBXNativeTarget "CashBabaSDK-CBSDKResources" */;
+			buildPhases = (
+				0B0CD33719B38D284755CB08CA4628C2 /* Sources */,
+				E3FDB0DBA002C6703D05FF78E8474E3F /* Frameworks */,
+				B63CD329465E704AD8AB84CF6B4EB5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashBabaSDK-CBSDKResources";
+			productName = CBSDKResources;
+			productReference = 54C08EE8B31E3BE68CB0CFE3CD3E5D47 /* CashBabaSDK-CBSDKResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A094820F9CA60ABB72D2BB0CC8D6C789 /* CashBabaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644756CE16737C040C750ADAECE8C2FE /* Build configuration list for PBXNativeTarget "CashBabaSDK" */;
+			buildPhases = (
+				42DB8B9E0391BE04F461BEC2ABC59F1E /* Headers */,
+				5EA3A349572BF8B715E0DE0A1F895FEB /* Sources */,
+				CC83CC6E6BF6334611A2DB18AB43A004 /* Frameworks */,
+				40AEAADEA7AAECEA2976B22D7C02CD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA64898BDB8A350E60B8A2D6E45B33D /* PBXTargetDependency */,
+			);
+			name = CashBabaSDK;
+			productName = CashBabaSDK;
+			productReference = 965D444668109076928CCAB62473058B /* CashBabaSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEA3827A5F5274D687FE3D9AC648AAA4 /* Pods-CashBabaExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713422F6415B29F38E4D85F65BDCA450 /* Build configuration list for PBXNativeTarget "Pods-CashBabaExampleApp" */;
+			buildPhases = (
+				2CDAE88A76A6400739BA4359658E6C29 /* Headers */,
+				1B34C32ADBCEA7301FC4FB48CCBF1955 /* Sources */,
+				E88E2B2528379AB85702644369C97137 /* Frameworks */,
+				7A9C64C33B5E3C1C8AD00C0D414A95EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05B6249D37BEF094E543B998E3B83A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CashBabaExampleApp";
+			productName = Pods_CashBabaExampleApp;
+			productReference = EC3A00D99C1AF13555AE8BE2D2F76C46 /* Pods-CashBabaExampleApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA4260645D4E8B925364A0F2826658A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A094820F9CA60ABB72D2BB0CC8D6C789 /* CashBabaSDK */,
+				7BD886775EFFF5787D91A16E26175539 /* CashBabaSDK-CBSDKResources */,
+				DEA3827A5F5274D687FE3D9AC648AAA4 /* Pods-CashBabaExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40AEAADEA7AAECEA2976B22D7C02CD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A87673273B4773913B69FBD0DAB1C54 /* CashBabaSDK-CBSDKResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9C64C33B5E3C1C8AD00C0D414A95EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63CD329465E704AD8AB84CF6B4EB5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AA02A19D8D20E9EE165127C124D69 /* Assets.xcassets in Resources */,
+				F9A13FB4CE749BA240A6110316D49567 /* publickey.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0CD33719B38D284755CB08CA4628C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B34C32ADBCEA7301FC4FB48CCBF1955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A803F859C204CD813D13DCF4F70D75 /* Pods-CashBabaExampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA3A349572BF8B715E0DE0A1F895FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00697BECBB63385C0CF5C557D5AF0CAE /* APIHandler.swift in Sources */,
+				8D34FAC8A64DBEF59A7B87C5BA28179D /* ApiPaths.swift in Sources */,
+				3D66BCDCB035CD780EA23B25E7882694 /* CashBabaRepository.swift in Sources */,
+				539FEC4F4A103462E61F39CE30D3C26D /* CashBabaSDK.swift in Sources */,
+				3146EC63076D811E34E2746BD580ADE7 /* CashBabaSDK-dummy.m in Sources */,
+				29EBFD706481787052C80A28A5DFC1C4 /* CBBaseViewController.swift in Sources */,
+				D591EF9AC0C4B9435FAD8FC9DF82BFBF /* CBErrorVC.swift in Sources */,
+				73B04D5266BE5D514033374D3829636B /* CBErrorView.swift in Sources */,
+				15E74612D0738B24C1437AA3CBF22B15 /* CBFaceDetectionSDK.swift in Sources */,
+				F3A5C0DB537858190D42C4C7607E04C8 /* CBPopUpView.swift in Sources */,
+				9F0F1A382BF575065196F95FD6DF2BA3 /* CBPopUpViewController.swift in Sources */,
+				CB129F33BDD5399D1CCDB5D2DCD6F367 /* CBProgressHUD.swift in Sources */,
+				83BD1A8A534E856ED89FD2F991815163 /* CBSDKDataStorage.swift in Sources */,
+				96F13643D07C22B080643742F4A7ECB6 /* CBSDKDataStore.swift in Sources */,
+				6F09A38E6C00E136CC4D81AEFAA7A7B6 /* CBSDKLanguageHandler.swift in Sources */,
+				59C6839D376DA911C034A33E5DC2FBDD /* CBSDKManager.swift in Sources */,
+				7185847855B39E319E53D956AB193740 /* CBSplashVC.swift in Sources */,
+				DD85AA64AF79BFA1343B08191AEA1C87 /* CBSplashView.swift in Sources */,
+				4DE8A6FBA168375B042A55DBBDCB28E2 /* CBWebServiceHandler.swift in Sources */,
+				43CBDC96D3E8252F9033C4C7FD96CED6 /* CGImage+FaceCrop.swift in Sources */,
+				06FBEF23D72116B99901DB5C34FDA49D /* ChangePINVC.swift in Sources */,
+				5F04D0CD4B89E79C5007D4BD42266917 /* ChangePinView.swift in Sources */,
+				E61A81957E85B108488F84743F03221B /* Config.swift in Sources */,
+				9DFE1E21BE9BB87D33754C3AEDC22CC7 /* ConfirmPINVC.swift in Sources */,
+				42296E746769BC4434F51C9C36DFAEE9 /* ConfirmPINView.swift in Sources */,
+				A0E89E08374521D197A0FAE2228D6422 /* Constant.swift in Sources */,
+				C59943A710AC6963D76CC5003FA3102E /* CustomGradientView.swift in Sources */,
+				FD6470E4407F212F199791B823F72232 /* Data.swift in Sources */,
+				0ACC0EC61BD688446EF683938EF73F1A /* Dictionary.swift in Sources */,
+				ECC01B35FA85B71C3D10C520664E924F /* DOBSelectorView.swift in Sources */,
+				E4543A801EF1F4AE84524050F9D61333 /* DPOTPView.swift in Sources */,
+				F1EFAA43AEAD3A9279C4C82C856F7235 /* EasyLabel.swift in Sources */,
+				67DCBFEE65EC05FD944FFA3824BEC6DF /* Encodable.swift in Sources */,
+				345F3021B91C679461BF3484FFD90A4B /* Encryptor.swift in Sources */,
+				CF62BD27BE6560CE0AD3897CC4A1EC1F /* ExampleImage.swift in Sources */,
+				11E82AF12D4ED81994B78330E9CA3550 /* exts.swift in Sources */,
+				A15134004CFDC66B56608A8AD88502B9 /* FaceDetectionView.swift in Sources */,
+				6A9AF7D9120BAAD06477FA9A9C5C2F13 /* FaceDetectionViewController.swift in Sources */,
+				3E871DA88609868B584883B561D03F64 /* FontManager.swift in Sources */,
+				D8CD502FD52A95E6AC96A93EAB29D453 /* ForgetPinVC.swift in Sources */,
+				7ABFEE2588D3AEDCCADC83404D622C23 /* ForgetPinView.swift in Sources */,
+				C73C4A1BD88CA9A58AE5E32B5DC5A832 /* IndicatorView.swift in Sources */,
+				80ED94080C0295701B7BCDAEF270EA19 /* KeyboardObserver.swift in Sources */,
+				6386B47613A09DBED1F7475AB3B44D2A /* LanguageTexts.swift in Sources */,
+				10AA89EA7787FFBBAEA460EE0029667F /* MainCoordinator.swift in Sources */,
+				D25542677A71785EA5F2B00FC7CF50AE /* Models.swift in Sources */,
+				FB10C437FA0CE8FF50834F8359DCBA68 /* OTPVerificationVC.swift in Sources */,
+				B821882B532B13B89A022144A6C611A4 /* OTPVerificationView.swift in Sources */,
+				7A442FAB202673E03AA8A52B3A7F9AD1 /* PinInputView.swift in Sources */,
+				198339E96C1FC3C65166782F4D6D0526 /* PINSetupVC.swift in Sources */,
+				5FEC60AB97073779971A34E6B8935358 /* PINSetupView.swift in Sources */,
+				72D77B6AD2F0C753837789DE0EF8476E /* Routes.swift in Sources */,
+				5E4ED9B01EFE30E938EE4B202129EB68 /* ScrollableView.swift in Sources */,
+				03472882AE5637DAC737B28DE1FE2033 /* SDKError.swift in Sources */,
+				355BAFC01B2FBE6EFD553B9AE238BA96 /* SDKPresenter.swift in Sources */,
+				41A3D1544BFD8201DFFDD530A14C33EE /* SecurePINLabel.swift in Sources */,
+				EDFEE7D3F5DEB7804B4FBF9020FFD67A /* SessionStore.swift in Sources */,
+				358D9016249FAD30A652EBAC3269530A /* SessionTimerManager.swift in Sources */,
+				376F9665F77E56C2AEE6D9F9DAF19925 /* UIColor.swift in Sources */,
+				9761BE29418C93BC618A7B38C23D71F9 /* UIDevice.swift in Sources */,
+				D0C7D7AB741C1DD6B04370D64E2AA3EC /* UIFont.swift in Sources */,
+				9EF61B3F84AA6D02432B1FE93872634B /* UIImage.swift in Sources */,
+				5C90B01998A2081BFD903DA1A09A77C4 /* UIView.swift in Sources */,
+				0E785098BBCF294A86196B36BA003EC9 /* UIViewController.swift in Sources */,
+				75BDDFC1A2E8C0519AA1208A737A8C5A /* WelcomeVC.swift in Sources */,
+				0570285140A848865AF6297197D35CCD /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA64898BDB8A350E60B8A2D6E45B33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CashBabaSDK-CBSDKResources";
+			target = 7BD886775EFFF5787D91A16E26175539 /* CashBabaSDK-CBSDKResources */;
+			targetProxy = AB0CB96C14574A4FEC5D45F636C9C247 /* PBXContainerItemProxy */;
+		};
+		C05B6249D37BEF094E543B998E3B83A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashBabaSDK;
+			target = A094820F9CA60ABB72D2BB0CC8D6C789 /* CashBabaSDK */;
+			targetProxy = 60B90D19457CF246FDB282235B7D2059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		210AE9E4D5D3414B0BB71D25D5E90424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC281BFD0970C9DC3EA8487A8ED3A11 /* CashBabaSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CashBabaSDK/CashBabaSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CashBabaSDK/CashBabaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CashBabaSDK/CashBabaSDK.modulemap";
+				PRODUCT_MODULE_NAME = CashBabaSDK;
+				PRODUCT_NAME = CashBabaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		355B570ACAFBCB75A9EDC7849C317459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E68A56ECE6C8CDD1A5E5CA1854A91E /* CashBabaSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CashBabaSDK/CashBabaSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CashBabaSDK/CashBabaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CashBabaSDK/CashBabaSDK.modulemap";
+				PRODUCT_MODULE_NAME = CashBabaSDK;
+				PRODUCT_NAME = CashBabaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A397A31DA920732E49687CDDC049175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A664246F48104FBFAF768BEA1929124 /* Pods-CashBabaExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBabaExampleApp/Pods-CashBabaExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBabaExampleApp/Pods-CashBabaExampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6066D19A1F3AC72467A256519737F321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC281BFD0970C9DC3EA8487A8ED3A11 /* CashBabaSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CashBabaSDK";
+				IBSC_MODULE = CashBabaSDK;
+				INFOPLIST_FILE = "Target Support Files/CashBabaSDK/ResourceBundle-CBSDKResources-CashBabaSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = CBSDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C96DDAA9193FE6B04AFE5BAD4086D80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E68A56ECE6C8CDD1A5E5CA1854A91E /* CashBabaSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CashBabaSDK";
+				IBSC_MODULE = CashBabaSDK;
+				INFOPLIST_FILE = "Target Support Files/CashBabaSDK/ResourceBundle-CBSDKResources-CashBabaSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = CBSDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D950529F506AC72BC377F66D7247AE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9419A193DBD66AC0957DF436D4D241 /* Pods-CashBabaExampleApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBabaExampleApp/Pods-CashBabaExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBabaExampleApp/Pods-CashBabaExampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644756CE16737C040C750ADAECE8C2FE /* Build configuration list for PBXNativeTarget "CashBabaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355B570ACAFBCB75A9EDC7849C317459 /* Debug */,
+				210AE9E4D5D3414B0BB71D25D5E90424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713422F6415B29F38E4D85F65BDCA450 /* Build configuration list for PBXNativeTarget "Pods-CashBabaExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A397A31DA920732E49687CDDC049175 /* Debug */,
+				D950529F506AC72BC377F66D7247AE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CDD53A9CA57208072BB4ED8505FC88 /* Build configuration list for PBXNativeTarget "CashBabaSDK-CBSDKResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DDAA9193FE6B04AFE5BAD4086D80A /* Debug */,
+				6066D19A1F3AC72467A256519737F321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

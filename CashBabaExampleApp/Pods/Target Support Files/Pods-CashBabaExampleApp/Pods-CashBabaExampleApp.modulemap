@@ -1,0 +1,6 @@
+framework module Pods_CashBabaExampleApp {
+  umbrella header "Pods-CashBabaExampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

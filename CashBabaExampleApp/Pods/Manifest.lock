@@ -1,0 +1,16 @@
+PODS:
+  - CashBabaSDK (1.0.0)
+
+DEPENDENCIES:
+  - CashBabaSDK (from `../CashBabaSDK`)
+
+EXTERNAL SOURCES:
+  CashBabaSDK:
+    :path: "../CashBabaSDK"
+
+SPEC CHECKSUMS:
+  CashBabaSDK: d463d2087db8d99354798ddc236dff29485529e4
+
+PODFILE CHECKSUM: eafd43401b966aa87b59cbbe16fa45fcdea7ea37
+
+COCOAPODS: 1.16.2

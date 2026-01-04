@@ -1,0 +1,29 @@
+{
+  "name": "CashBabaSDK",
+  "version": "1.0.0",
+  "summary": "CashBaba iOS SDK",
+  "description": "CashBabaSDK framework for iOS",
+  "homepage": "https://example.com/CashBabaSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Imrul Kayes": "imrul@example.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "CashBabaSDK/**/*.{swift,h}",
+  "swift_versions": "5.0",
+  "resource_bundles": {
+    "CBSDKResources": [
+      "CashBabaSDK/CBSDK/Assets/CBSDKResources.bundle/**/*",
+      "CashBabaSDK/CBSDK/Assets/Assets.xcassets"
+    ]
+  },
+  "swift_version": "5.0"
+}
