@@ -12,7 +12,7 @@ enum ApiPaths {
     static let forgotPinOtpResend = "v1/profile/forgetpinotpresend" //MerchantProfile/ForgetPinOtpResend
     static let resetPin = "v1/profile/resetpin" //MerchantProfile/ResetPIN
     static let transfer = "v1/Transaction/WithdrawMoneyToBank"
-    static let payment = "v1/transaction/PaymentConfirm"
+    static let payment = "v1/transaction/paymentconfirm" //PaymentConfirm
     static let distributorPayment = "v1/transaction/MerchantDistributorPaymentConfirm"
     static func validateCpqrc(_ ref: String) -> String { "v1/transaction/CPQRCPaymentValidation/\(ref)" }
     static let confirmCpqrc = "v1/transaction/CPQRCPaymentConfirm"

@@ -239,14 +239,14 @@ public final class CashBaba {
     public func payment(paymentReference: String,
                         pin: String,
                         completion: @escaping (Result<PaymentResponse, Error>) -> Void) {
-        APIHandler.config.scope = "Transaction"
+        APIHandler.config.scope = "Payment"//"Transaction"
         repo.confirmPayment(paymentReference: paymentReference, pin: pin) { result in DispatchQueue.main.async { completion(result) } }
     }
 
     public func distributorPayment(paymentReference: String,
                                    pin: String,
                                    completion: @escaping (Result<PaymentResponse, Error>) -> Void) {
-        APIHandler.config.scope = "Transaction"
+        APIHandler.config.scope = "Payment"//"Transaction"
         repo.confirmDistributorPayment(paymentReference: paymentReference, pin: pin) { result in DispatchQueue.main.async { completion(result) } }
     }
 

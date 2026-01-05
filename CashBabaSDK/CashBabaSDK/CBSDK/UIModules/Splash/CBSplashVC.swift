@@ -55,7 +55,7 @@ class CBSplashVC: UIViewController {
         case .SET_PIN, .CHANGE_PIN, .FORGET_PIN:
             APIHandler.config.scope = "PinManagement"
         case .PAYMENT, .DISTRIBUTOR_PAYMENT, .CPQRC:
-            APIHandler.config.scope = "Transaction"
+            APIHandler.config.scope = "Payment"//"Transaction"
         case .TRANSFER_MONEY:
             APIHandler.config.scope = "LinkBank"
         }
